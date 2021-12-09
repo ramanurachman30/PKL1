@@ -10252,7 +10252,7 @@ body.sidebar-toggled footer.sticky-footer {
 
 .R {
   position: absolute;
-  width: 431px;
+  width: 22rem;
   height: 51px;
   left: 102px;
   top: 512px;
@@ -10263,9 +10263,20 @@ body.sidebar-toggled footer.sticky-footer {
 
 .M {
   position: absolute;
-  width: 431px;
+  width: 22rem;
   height: 51px;
-  left: 846px;
+  left: 35rem;
+  top: 512px;
+
+  background: #6d7993;
+  border-radius: 20px;
+}
+
+.A {
+  position: absolute;
+  width: 22rem;
+  height: 51px;
+  left: 63rem;
   top: 512px;
 
   background: #6d7993;
@@ -10294,4 +10305,35 @@ body.sidebar-toggled footer.sticky-footer {
   height: 68px;
   left: 29.7rem;
   top: 14rem;
+}
+
+#text {
+  position: absolute;
+  width: 557px;
+  height: 80px;
+  left: 7rem;
+  top: 7rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 80px;
+  /* identical to box height, or 222% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.garis {
+  position: absolute;
+  width: 620px;
+  height: 0px;
+  left: 4rem;
+  top: 11rem;
+
+  border: 1px solid #d5d5d5;
 }
