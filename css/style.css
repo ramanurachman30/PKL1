@@ -10350,37 +10350,197 @@ body.sidebar-toggled footer.sticky-footer {
 
 .inp {
   position: absolute;
-  width: 275px;
+  width: 16rem;
   height: 70px;
-  left: -16rem;
+  left: -17rem;
   top: 6rem;
 }
 
 .inp1 {
   position: absolute;
-  width: 275px;
+  width: 16rem;
   height: 70px;
-  left: -16rem;
+  left: -17rem;
   top: 12rem;
 }
 
 .inp2 {
   position: absolute;
-  width: 275px;
+  width: 16rem;
   height: 70px;
-  left: -16rem;
+  left: -17rem;
   top: 18rem;
 }
 
 .inp3 {
   position: absolute;
-  width: 275px;
+  width: 16rem;
   height: 70px;
-  left: -16rem;
+  left: -17rem;
   top: 24rem;
+}
+
+.inp4 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 6rem;
+}
+
+.inp5 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 12rem;
+}
+
+.inp6 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 18rem;
+}
+
+.inp7 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 24rem;
+}
+
+.grp {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 18rem;
+  top: 6rem;
+}
+
+.grp1 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 18rem;
+  top: 12rem;
+}
+
+.grp2 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 18rem;
+  top: 18rem;
+}
+
+.grp3 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 18rem;
+  top: 24rem;
+}
+
+.tgl {
+  position: absolute;
+  width: 13rem;
+  height: 70px;
+  left: 25.5rem;
+  top: 6rem;
+}
+
+.tgl1 {
+  position: absolute;
+  width: 13rem;
+  height: 70px;
+  left: 25.5rem;
+  top: 12rem;
+}
+
+.tgl2 {
+  position: absolute;
+  width: 13rem;
+  height: 70px;
+  left: 25.5rem;
+  top: 18rem;
+}
+
+.tgl3 {
+  position: absolute;
+  width: 13rem;
+  height: 70px;
+  left: 25.5rem;
+  top: 24rem;
+}
+
+.stts {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 39.5rem;
+  top: 6rem;
+}
+
+.stts1 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 39.5rem;
+  top: 12rem;
+}
+
+.stts2 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 39.5rem;
+  top: 18rem;
+}
+
+.stts3 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 39.5rem;
+  top: 24rem;
+}
+
+.icon-expand {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 42.5rem;
+  top: -1rem;
+}
+
+.icon-expand2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 42.5rem;
+  top: 5rem;
+}
+
+.icon-expand3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 42.5rem;
+  top: 11rem;
+}
+
+.icon-expand4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 42.5rem;
+  top: 17rem;
 }
 
 .bck {
   margin-left: 10rem !important;
-  margin-top: 21rem;
+  margin-top: 20rem;
 }
