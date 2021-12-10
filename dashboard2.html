@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Dashboard Karyawan</title>
+    <title>Status Pengajuan</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -85,14 +85,48 @@
           <div class="container-fluid img-R">
             <!-- Page Heading -->
             <img src="img/book.png" alt="" style="width: 100rem; height: 38.5rem" />
-
-            <h4 id="text">Silahkan Ajukan Kebutuhan Anda</h4>
-            <div class="dropdown-divider garis"></div>
-
-            <center>
-              <a class="btn R text-light" href="dashboard2.html"> Cek Status Pengajuan </a>
-              <a class="btn A text-light" href="dashboard.html">Pengajuan Pengeluaran</a>
-            </center>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="card o-hidden border-0 shadow-lg my-5 rama3">
+                    <div class="card-body p-0">
+                      <!-- Nested Row within Card Body -->
+                      <div class="row">
+                        <div class="col-lg">
+                          <div class="p-5">
+                            <form class="form ml-4" action="" method="post">
+                              <center>
+                                <h3 class="text-start text-dark mb-5" style="margin-left: 2rem;">Status Pengajuan barang</h3>
+                              </center> 
+                              <div class="form-group mb-4 inp">
+                                <label for="nama_pengaju" class="text-dark mb-2">Nama Pengaju :</label><br />
+                                <input type="text" name="nama_pengaju" id="nama_pengaju" class="form-control" placeholder="Ketik Nama Pengaju" required/>
+                              </div>
+                              <div class="form-group mb-4 inp1">
+                                <label for="nama_pengaju" class="text-dark mb-2">Nama Pengaju :</label><br />
+                                <input type="text" name="nama_pengaju" id="nama_pengaju" class="form-control" placeholder="Ketik Nama Pengaju" required/>
+                              </div>
+                              <div class="form-group mb-4 inp2">
+                                <label for="nama_pengaju" class="text-dark mb-2">Nama Pengaju :</label><br />
+                                <input type="text" name="nama_pengaju" id="nama_pengaju" class="form-control" placeholder="Ketik Nama Pengaju" required />
+                              </div>
+                              <div class="form-group inp3">
+                                <label for="satuan" class="text-dark mb-2">Nama Pengaju :</label>
+                                <input type="text" name="nama_pengaju" id="nama_pengaju" class="form-control" placeholder="Ketik Nama Pengaju" required/>
+                              </div>
+                              <br />
+                            </form>
+                            <div class="col-lg-3 form-group ml-3 bck">
+                              <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
+                              <a href="blank.html" class="d-block text-center text-dark mt-3">Kembali</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- /.container-fluid -->
         </div>
@@ -109,21 +143,21 @@
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Sign Out?</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign Out?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-danger" href="login.html" style="width: 45.5rem; border-radius: 20rem">Logout</a>
+            </div>
+            <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Cancel</button>
           </div>
-          <div class="modal-footer">
-            <a class="btn btn-danger" href="login.html" style="width: 45.5rem; border-radius: 20rem">Logout</a>
-          </div>
-          <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Cancel</button>
         </div>
       </div>
-    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

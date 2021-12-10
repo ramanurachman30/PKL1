@@ -10256,17 +10256,7 @@ body.sidebar-toggled footer.sticky-footer {
   height: 51px;
   left: 102px;
   top: 512px;
-
-  background: #6d7993;
-  border-radius: 20px;
-}
-
-.M {
-  position: absolute;
-  width: 22rem;
-  height: 51px;
-  left: 35rem;
-  top: 512px;
+  line-height: 2.3;
 
   background: #6d7993;
   border-radius: 20px;
@@ -10276,8 +10266,9 @@ body.sidebar-toggled footer.sticky-footer {
   position: absolute;
   width: 22rem;
   height: 51px;
-  left: 63rem;
+  left: 61rem;
   top: 512px;
+  line-height: 2.3;
 
   background: #6d7993;
   border-radius: 20px;
@@ -10336,4 +10327,60 @@ body.sidebar-toggled footer.sticky-footer {
   top: 11rem;
 
   border: 1px solid #d5d5d5;
+}
+
+.rama3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+
+  position: absolute;
+  width: 1200px;
+  height: 590px;
+  left: calc(50% - 464px / 2);
+  top: calc(50% - 1346px / 2);
+
+  background: #ffffff;
+  /* drop/shadow-4 */
+
+  box-shadow: 0px 15px 25px rgba(65, 51, 104, 0.15), 0px 5px 10px rgba(65, 51, 104, 0.05);
+  border-radius: 20px;
+}
+
+.inp {
+  position: absolute;
+  width: 275px;
+  height: 70px;
+  left: -16rem;
+  top: 6rem;
+}
+
+.inp1 {
+  position: absolute;
+  width: 275px;
+  height: 70px;
+  left: -16rem;
+  top: 12rem;
+}
+
+.inp2 {
+  position: absolute;
+  width: 275px;
+  height: 70px;
+  left: -16rem;
+  top: 18rem;
+}
+
+.inp3 {
+  position: absolute;
+  width: 275px;
+  height: 70px;
+  left: -16rem;
+  top: 24rem;
+}
+
+.bck {
+  margin-left: 10rem !important;
+  margin-top: 21rem;
 }

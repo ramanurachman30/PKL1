@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Dashboard Karyawan</title>
+    <title>Pengajuan Pengluaran</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -95,17 +95,17 @@
                           <div class="p-5">
                             <form class="form ml-4" action="" method="post">
                               <center>
-                                <h3 class="text-start text-dark mb-5">Form pengajuan pemasukkan barang</h3>
+                                <h3 class="text-start text-dark mb-5">Form Pengajuan Pengluaran Barang</h5>
                               </center>
                               <div class="form-group mb-4">
                                 <label for="nama_barang" class="text-dark mb-2">Nama barang :</label><br />
-                                <input type="text" name="nama_barang" id="nama_barang" class="form-control" placeholder="Ketik Username" style="width: 334px;"/>
+                                <input type="text" name="nama_barang" id="nama_barang" class="form-control" placeholder="Ketik Nama" style="width: 334px;"/>
                               </div>
                               <div class="form-group mb-4">
                                 <label for="klasifikasi" class="text-dark mb-2">Klasifikasi :</label><br />
                                 <select class="form-control" required style="width: 334px;">
                                   <i class="bi bi-chevron-down mr-5"></i>
-                                  <option disabled selected>--Pilih Klasifikasi--</option>
+                                  <option disabled selected>Pilih Klasifikasi</option>
                                   <option>SMPL</option>
                                   <option>KLBRS</option>
                                   <option>MRKT</option>
@@ -122,14 +122,14 @@
                               </div>
                               <div class="form-group mb-4 rama2">
                                 <label for="jumlah" class="text-dark mb-2">Jumlah :</label><br />
-                                <input type="text" name="jumlah" id="jumlah" class="form-control" placeholder="Ketik Username" required />
+                                <input type="text" name="jumlah" id="jumlah" class="form-control" placeholder="Ketik Jumlah" required />
                               </div>
                               <div class="form-group rama1">
                                 <label for="satuan" class="text-dark mb-2">Satuan :</label>
                                 <div class="input-group mb-3">
                                     <select class="form-control" required style="width: 334px;">
                                         <i class="bi bi-chevron-down mr-5"></i>
-                                        <option disabled selected>--Pilih Klasifikasi--</option>
+                                        <option disabled selected>Pilih Satuan</option>
                                         <option>SMPL</option>
                                         <option>KLBRS</option>
                                         <option>MRKT</option>
@@ -148,6 +148,9 @@
                               <br />
                               <div class="col-lg-3 form-group ml-3">
                                 <button type="submit" name="submit" class="btn btn-dark mr-4" style="width: 45.5rem; margin-right: 60%">Ajukan</button>
+                                <!-- <a class="btn btn-dark mr-4" href="#" data-toggle="modal" data-target="#pengajuanModal" style="width: 45.5rem; margin-right: 60%">
+                                  Ajukan
+                                </a> -->
                                 <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
                               </div>
                             </form>
@@ -179,19 +182,20 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Sign Out?</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-danger" href="login.html" style="width: 45.5rem; border-radius: 20rem">Logout</a>
           </div>
+          <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Cancel</button>
         </div>
       </div>
     </div>
+
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
