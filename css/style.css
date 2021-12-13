@@ -10262,6 +10262,18 @@ body.sidebar-toggled footer.sticky-footer {
   border-radius: 20px;
 }
 
+.M {
+  position: absolute;
+  width: 350px;
+  height: 3.3rem;
+  left: 33.5rem;
+  top: 32rem;
+  line-height: 2.3;
+
+  background: #6d7993;
+  border-radius: 20px;
+}
+
 .A {
   position: absolute;
   width: 22rem;
@@ -10543,4 +10555,106 @@ body.sidebar-toggled footer.sticky-footer {
 .bck {
   margin-left: 10rem !important;
   margin-top: 20rem;
+}
+
+.jmlh {
+  position: absolute;
+  width: 7rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 6rem;
+}
+
+.jmlh2 {
+  position: absolute;
+  width: 7rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 12rem;
+}
+
+.jmlh3 {
+  position: absolute;
+  width: 7rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 18rem;
+}
+
+.jmlh4 {
+  position: absolute;
+  width: 7rem;
+  height: 70px;
+  left: 0.5rem;
+  top: 24rem;
+}
+
+.klsf {
+  position: absolute;
+  width: 18rem;
+  height: 70px;
+  left: 9rem;
+  top: 6rem;
+}
+
+.klsf2 {
+  position: absolute;
+  width: 18rem;
+  height: 70px;
+  left: 9rem;
+  top: 12rem;
+}
+
+.klsf3 {
+  position: absolute;
+  width: 18rem;
+  height: 70px;
+  left: 9rem;
+  top: 18rem;
+}
+
+.klsf4 {
+  position: absolute;
+  width: 18rem;
+  height: 70px;
+  left: 9rem;
+  top: 24rem;
+}
+
+.stn {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 28.5rem;
+  top: 6rem;
+}
+
+.stn2 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 28.5rem;
+  top: 12rem;
+}
+
+.stn3 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 28.5rem;
+  top: 18rem;
+}
+
+.stn4 {
+  position: absolute;
+  width: 16rem;
+  height: 70px;
+  left: 28.5rem;
+  top: 24rem;
+}
+
+.bck2 {
+  margin-left: 8rem !important;
+  margin-top: 20rem;
+  width: 14rem;
 }
