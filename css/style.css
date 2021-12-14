@@ -10653,6 +10653,76 @@ body.sidebar-toggled footer.sticky-footer {
   top: 24rem;
 }
 
+.accept {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 39rem;
+  top: 8rem;
+}
+
+.accept2 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 39rem;
+  top: 14rem;
+}
+
+.accept3 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 39rem;
+  top: 20rem;
+}
+
+.accept4 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 39rem;
+  top: 26rem;
+}
+
+.reject {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 44.5rem;
+  top: 8rem;
+}
+
+.reject2 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 44.5rem;
+  top: 14rem;
+}
+
+.reject3 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 44.5rem;
+  top: 20rem;
+}
+
+.reject4 {
+  position: absolute;
+  width: 82.5px;
+  height: 40px;
+  left: 44.5rem;
+  top: 26rem;
+}
+
+.bck3 {
+  margin-left: 8rem !important;
+  margin-top: 26rem;
+  width: 14rem;
+}
+
 .bck2 {
   margin-left: 8rem !important;
   margin-top: 20rem;

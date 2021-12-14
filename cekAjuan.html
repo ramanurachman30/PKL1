@@ -32,11 +32,11 @@
             </div>
 
             <div class="container-fluid justify-content-end">
-              <a class="navbar-brand" href="blank.html">Home</a>
+              <a class="navbar-brand" href="HRD.html">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="blank.html">Contact Us</a>
+              <a class="navbar-brand" href="HRD.html">Contact Us</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -148,51 +148,25 @@
                                 <label for="tgl" class="text-dark mb-2">Tanggal :</label>
                                 <input type="date" name="tgl" id="tgl" class="form-control" placeholder="tgl" required/>
                               </div>
-                              <div class="form-group stts">
-                                <label for="status" class="text-dark mb-2">Status :</label>
-                                <input type="text" name="status" id="status" class="form-control" placeholder="Y/N" required/>
+                              <div>
+                                <a class="btn btn-success accept" href="#" data-toggle="modal" data-target="#setujuModal" style="width: 5rem; border-radius: 20rem;">Accept</a>
+                                <a class="btn btn-danger reject" href="#" data-toggle="modal" data-target="#tolakModal" style="width: 5rem; border-radius: 20rem;">Reject</a>
                               </div>
-                              <div class="form-group stts1">
-                                <label for="status" class="text-dark mb-2">Status :</label>
-                                <input type="text" name="status" id="status" class="form-control" placeholder="Y/N" required/>
+                              <div>
+                                <a class="btn btn-success accept2" href="#" data-toggle="modal" data-target="#setujuModal" style="width: 5rem; border-radius: 20rem;">Accept</a>
+                                <a class="btn btn-danger reject2" href="#" data-toggle="modal" data-target="#tolakModal" style="width: 5rem; border-radius: 20rem;">Reject</a>
                               </div>
-                              <div class="form-group stts2">
-                                <label for="status" class="text-dark mb-2">Status :</label>
-                                <input type="text" name="status" id="status" class="form-control" placeholder="Y/N" required/>
+                              <div>
+                                <a class="btn btn-success accept3" href="#" data-toggle="modal" data-target="#setujuModal" style="width: 5rem; border-radius: 20rem;">Accept</a>
+                                <a class="btn btn-danger reject3" href="#" data-toggle="modal" data-target="#tolakModal" style="width: 5rem; border-radius: 20rem;">Reject</a>
                               </div>
-                              <div class="form-group stts3">
-                                <label for="status" class="text-dark mb-2">Status :</label>
-                                <input type="text" name="status" id="status" class="form-control" placeholder="Y/N" required/>
+                              <div>
+                                <a class="btn btn-success accept4" href="#" data-toggle="modal" data-target="#setujuModal" style="width: 5rem; border-radius: 20rem;">Accept</a>
+                                <a class="btn btn-danger reject4" href="#" data-toggle="modal" data-target="#tolakModal" style="width: 5rem; border-radius: 20rem;">Reject</a>
                               </div>
-                              <br />
-                            </form>
-                          <li class="dropdown no-arrow">
-                            <a class="dropdown-toggle icon-expand" href="#" id="expandDropdown" role="button" data-toggle="dropdown">
-                              <img src="img/expand-button.png" alt="" />
-                            </a>
-                            <a class="dropdown-toggle icon-expand2" href="#" id="expandDropdown" role="button" data-toggle="dropdown">
-                              <img src="img/expand-button.png" alt="" />
-                            </a>
-                            <a class="dropdown-toggle icon-expand3" href="#" id="expandDropdown" role="button" data-toggle="dropdown">
-                              <img src="img/expand-button.png" alt="" />
-                            </a>
-                            <a class="dropdown-toggle icon-expand4" href="#" id="expandDropdown" role="button" data-toggle="dropdown">
-                              <img src="img/expand-button.png" alt="" />
-                            </a>
-                            <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="expandDropdown">
-                              <a class="dropdown-item" href="dashboard3.html">
-                                Edit Ajuan
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#hapusModal">
-                                Hapus Ajuan
-                              </a>
-                            </div>
-                          </li>
-                            <div class="col-lg-3 form-group ml-3 bck">
+                            <div class="col-lg-3 form-group ml-3 bck3">
                               <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
-                              <a href="dashboard2.html" class="d-block text-center text-dark mt-3">Kembali</a>
+                              <a href="cekAjuan.html" class="d-block text-center text-dark mt-3">Kembali</a>
                             </div>
                           </div>
                         </div>
@@ -234,18 +208,36 @@
         </div>
       </div>
 
-      <!-- hapus ajuan modal -->
-      <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <!-- terima ajuan modal -->
+      <div class="modal fade" id="setujuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Batalkan Ajuan?</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Terima Ajuan?</h5>
               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">×</span>
               </button>
             </div>
             <div class="modal-footer">
-              <a class="btn btn-danger" href="dashboard2.html" style="width: 45.5rem; border-radius: 20rem">Batalkan Pengajuan Barang</a>
+              <a class="btn btn-success" href="cekAjuan.html" style="width: 45.5rem; border-radius: 20rem">Terima</a>
+            </div>
+            <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Kembali</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- tolak ajuan modal -->
+      <div class="modal fade" id="tolakModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Tolak Ajuan?</h5>
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-danger" href="cekAjuan.html" style="width: 45.5rem; border-radius: 20rem">Tolak</a>
             </div>
             <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Kembali</button>
           </div>
