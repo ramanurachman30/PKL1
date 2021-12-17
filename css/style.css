@@ -2279,8 +2279,8 @@ fieldset:disabled a.btn {
 }
 .btn-success {
   color: #fff;
-  background-color: #1cc88a;
-  border-color: #1cc88a;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
 }
 .btn-success:hover {
   color: #fff;
@@ -10241,7 +10241,7 @@ body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
 
-.img-R {
+.img-H {
   position: relative;
   height: 597px;
   right: 24px;
@@ -10250,9 +10250,9 @@ body.sidebar-toggled footer.sticky-footer {
   background: url('img/book.png');
 }
 
-.R {
+.H {
   position: absolute;
-  width: 22rem;
+  width: 17rem;
   height: 51px;
   left: 102px;
   top: 512px;
@@ -10262,11 +10262,11 @@ body.sidebar-toggled footer.sticky-footer {
   border-radius: 20px;
 }
 
-.M {
+.R {
   position: absolute;
-  width: 350px;
+  width: 17rem;
   height: 3.3rem;
-  left: 33.5rem;
+  left: 26.5rem;
   top: 32rem;
   line-height: 2.3;
 
@@ -10276,9 +10276,9 @@ body.sidebar-toggled footer.sticky-footer {
 
 .A {
   position: absolute;
-  width: 22rem;
-  height: 51px;
-  left: 61rem;
+  width: 17rem;
+  height: 54px;
+  left: 46rem;
   top: 512px;
   line-height: 2.3;
 
@@ -10286,7 +10286,19 @@ body.sidebar-toggled footer.sticky-footer {
   border-radius: 20px;
 }
 
-.rama {
+.D {
+  position: absolute;
+  width: 17rem;
+  height: 51px;
+  left: 65rem;
+  top: 32rem;
+  line-height: 2.3;
+
+  background: #6d7993;
+  border-radius: 20px;
+}
+
+.front {
   margin-top: -37rem !important;
   height: 28rem;
   width: 55rem;
@@ -10294,7 +10306,7 @@ body.sidebar-toggled footer.sticky-footer {
   top: 4rem;
 }
 
-.rama2 {
+.front2 {
   position: absolute;
   width: 331px;
   height: 68px;
@@ -10302,7 +10314,7 @@ body.sidebar-toggled footer.sticky-footer {
   top: 8rem;
 }
 
-.rama1 {
+.front1 {
   position: absolute;
   width: 331px;
   height: 68px;
@@ -10341,7 +10353,7 @@ body.sidebar-toggled footer.sticky-footer {
   border: 1px solid #d5d5d5;
 }
 
-.rama3 {
+.front3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10727,4 +10739,43 @@ body.sidebar-toggled footer.sticky-footer {
   margin-left: 8rem !important;
   margin-top: 20rem;
   width: 14rem;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px;
+
+  position: absolute;
+  width: 35rem;
+  height: 17rem;
+  left: calc(50% - -11rem / 2);
+  top: calc(50% - 63rem / 2);
+
+  background: #ffffff;
+  /* drop/shadow-4 */
+
+  box-shadow: 0px 15px 25px rgba(65, 51, 104, 0.15), 0px 5px 10px rgba(65, 51, 104, 0.05);
+  border-radius: 20px;
+}
+
+.dwld {
+  position: absolute;
+  width: 8rem;
+  height: 2.5rem;
+  left: 24.5rem;
+  top: 6.5rem;
+
+  background: #5cb85c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+}
+
+.bck4 {
+  position: static;
+  width: 6rem;
+  height: 20px;
+  margin-left: 12rem;
+  margin-top: -1rem;
 }
