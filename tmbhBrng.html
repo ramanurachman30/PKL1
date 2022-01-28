@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Pengajuan Pengluaran</title>
+    <title>Tambah Barang</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -32,11 +32,11 @@
             </div>
 
             <div class="container-fluid justify-content-end">
-              <a class="navbar-brand" href="blank.html">Home</a>
+              <a class="navbar-brand" href="HRD.html">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="blank.html">Contact Us</a>
+              <a class="navbar-brand" href="HRD.html">Contact Us</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -86,22 +86,7 @@
                               </center>
                               <div class="form-group mb-4">
                                 <label for="nama_barang" class="text-dark mb-2">Nama barang :</label><br />
-                                <select class="form-control" required style="width: 334px;">
-                                  <i class="bi bi-chevron-down mr-5"></i>
-                                  <option disabled selected>Pilih Nama</option>
-                                  <option>SMPL</option>
-                                  <option>KLBRS</option>
-                                  <option>MRKT</option>
-                                  <option>PPCU</option>
-                                  <option>CSO</option>
-                                  <option>QHSB</option>
-                                  <option>FNC</option>
-                                  <option>PPHU</option>
-                                  <option>HRGA</option>
-                                  <option>ENVR</option>
-                                  <option>MICRO</option>
-                                  <option>FOOD</option>
-                                </select>
+                                <input type="text" name="nama_barang" id="nama_barang" class="form-control" placeholder="Ketik Jumlah" style="width: 21rem;" required />
                               </div>
                               <div class="form-group mb-4">
                                 <label for="klasifikasi" class="text-dark mb-2">Klasifikasi :</label><br />
@@ -151,12 +136,12 @@
                               <div class="col-lg-3 form-group ml-3">
                                 <!-- <button type="submit" name="submit" class="btn btn-dark mr-4" style="width: 45.5rem; margin-right: 60%">Ajukan</button> -->
                                 <a class="btn btn-dark mr-4" href="#" data-toggle="modal" data-target="#pengajuanModal" style="width: 45.5rem; margin-right: 60%">
-                                  Ajukan
+                                  Tambahkan
                                 </a>
                                 <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
                               </div>
                             </form>
-                            <a href="blank.html" class="d-block text-center text-dark mt-3">Kembali</a>
+                            <a href="HRD.html" class="d-block text-center text-dark mt-3">Kembali</a>
                           </div>
                         </div>
                       </div>
@@ -202,13 +187,13 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Barang Berhasil Diajukan</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Barang Berhasil Ditambahkan</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-footer">
-            <a class="btn btn-secondary" type="submit" href="dashboard2.html" style="width: 45.5rem; border-radius: 90px">selesai</a>
+            <a class="btn btn-secondary" type="submit" href="dataKrywn.html" style="width: 45.5rem; border-radius: 90px">selesai</a>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Data Karyawan</title>
+    <title>Status Pengajuan</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -32,11 +32,11 @@
             </div>
 
             <div class="container-fluid justify-content-end">
-              <a class="navbar-brand" href="HRD.html">Home</a>
+              <a class="navbar-brand" href="blank.html">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="HRD.html">Contact Us</a>
+              <a class="navbar-brand" href="blank.html">Contact Us</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -80,25 +80,27 @@
                       <div class="row">
                         <div class="col-lg">
                           <center>
-                            <h3 class="text-start text-dark mb-5" style="margin-left: -2rem;">Daftar Karyawan</h3>
-                          </center> 
+                            <h3 class="text-start text-dark mb-5" style="margin-left: 2rem;">Status Pengajuan barang</h3>
+                          </center>
                           <table id="bootstrap-data-table" class="table table-striped table-bordered">
                             <thead>
                               <tr>
-                                <th>Nama Karyawan</th>
+                                <th>Nama Pengaju</th>
+                                <th>Nama Barang</th>
                                 <th>Jumlah</th>
-                                <th>Klasifikasi</th>
-                                <th>Satuan</th>
+                                <th>Tanggal</th>
+                                <th>Status</th>
                                 <th>Action</th>
                               </tr>
                             </thead>
                             <tbody>
                              
                               <tr>
-                                <td>Nama Karyawan</td>
-                                <td>Divisi</td>
-                                <td>Username Karyawan</td>
-                                <td>Password Karyawan</td>
+                                <td>Nama Pengaju</td>
+                                <td>Nama Barang</td>
+                                <td>Jumlah</td>
+                                <td>Tanggal Saata Input pengajuan</td>
+                                <td>Y/N</td>
                                 <td>
                                   <li class="dropdown no-arrow">
                                     <a class="dropdown-toggle icon-expand" href="#" id="expandDropdown" role="button" data-toggle="dropdown">
@@ -106,12 +108,12 @@
                                     </a>
 
                                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="expandDropdown">
-                                      <a class="dropdown-item" href="editKrywn.html">
-                                        Edit
+                                      <a class="dropdown-item" href="EditAjuan.html">
+                                        Edit Ajuan
                                       </a>
                                       <div class="dropdown-divider"></div>
-                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#hapusKaryawanModal">
-                                        Hapus
+                                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#hapusModal">
+                                        Hapus Ajuan
                                       </a>
                                     </div>
                                   </li>
@@ -119,9 +121,9 @@
                               </tr>
                             </tbody>
                           </table>
-                          <div class="col-lg-3 form-group ml-3 bck2">
+                          <div class="col-lg-3 form-group ml-3 bck">
                             <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
-                            <a href="HRD.html" class="d-block text-center text-dark mt-3">Kembali</a>
+                            <a href="formPngjuan.html" class="d-block text-center text-dark mt-3">Kembali</a>
                           </div>
                         </div>
                       </div>
@@ -163,18 +165,19 @@
       </div>
 
       <!-- hapus ajuan modal -->
-      <div class="modal fade" id="hapusKaryawanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="hapusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Hapus Karyawan</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Batalkan Ajuan?</h5>
               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">×</span>
               </button>
             </div>
             <div class="modal-footer">
-              <a class="btn btn-danger" href="dataKrywn.html" style="width: 45.5rem; border-radius: 20rem">Hapus</a>
+              <a class="btn btn-danger" href="sttsPengajuan.html" style="width: 45.5rem; border-radius: 20rem">Batalkan Pengajuan Barang</a>
             </div>
+            <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Kembali</button>
           </div>
         </div>
       </div>

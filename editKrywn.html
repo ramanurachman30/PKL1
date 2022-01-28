@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Edit Pengajuan Pengluaran</title>
+    <title>Edit Karyawan</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
@@ -27,16 +27,16 @@
           <!-- Topbar -->
 
           <nav class="navbar navbar-expand navbar-light bg-gray topbar mb-4 static-top shadow">
-            <div class="icon aas">
+            <div class="icon">
               <img src="img/Logo.png" alt="PT ANUGRAH ANALISIS SEMPURNA">
             </div>
 
             <div class="container-fluid justify-content-end">
-              <a class="navbar-brand" href="#">Home</a>
+              <a class="navbar-brand" href="HRD.html">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand" href="#">Contact Us</a>
+              <a class="navbar-brand" href="HRD.html">Contact Us</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -82,81 +82,34 @@
                           <div class="p-5">
                             <form class="form ml-4" action="" method="post">
                               <center>
-                                <h3 class="text-start text-dark mb-5">Form Pengajuan Pengluaran Barang</h5>
+                                <h3 class="text-start text-dark mb-5">Edit Karyawan</h5>
                               </center>
                               <div class="form-group mb-4">
-                                <label for="nama_barang" class="text-dark mb-2">Nama barang :</label><br />
-                                <select class="form-control" required style="width: 334px;">
-                                  <i class="bi bi-chevron-down mr-5"></i>
-                                  <option disabled selected>Pilih Nama</option>
-                                  <option>SMPL</option>
-                                  <option>KLBRS</option>
-                                  <option>MRKT</option>
-                                  <option>PPCU</option>
-                                  <option>CSO</option>
-                                  <option>QHSB</option>
-                                  <option>FNC</option>
-                                  <option>PPHU</option>
-                                  <option>HRGA</option>
-                                  <option>ENVR</option>
-                                  <option>MICRO</option>
-                                  <option>FOOD</option>
-                                </select>
+                                <label for="nama_barang" class="text-dark mb-2">Nama Karyawan :</label><br />
+                                <input type="text" name="nama_barang" id="nama_barang" class="form-control" placeholder="Ketik Nama Karyawan" style="width: 21rem;" required />
                               </div>
                               <div class="form-group mb-4">
-                                <label for="klasifikasi" class="text-dark mb-2">Klasifikasi :</label><br />
-                                <select class="form-control" required style="width: 334px;">
-                                  <i class="bi bi-chevron-down mr-5"></i>
-                                  <option disabled selected>Pilih Klasifikasi</option>
-                                  <option>SMPL</option>
-                                  <option>KLBRS</option>
-                                  <option>MRKT</option>
-                                  <option>PPCU</option>
-                                  <option>CSO</option>
-                                  <option>QHSB</option>
-                                  <option>FNC</option>
-                                  <option>PPHU</option>
-                                  <option>HRGA</option>
-                                  <option>ENVR</option>
-                                  <option>MICRO</option>
-                                  <option>FOOD</option>
-                                </select>
+                                <label for="username" class="text-dark mb-2">Username :</label><br />
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Ketik Usename" style="width: 21rem;" required />
                               </div>
                               <div class="form-group mb-4 front2">
-                                <label for="jumlah" class="text-dark mb-2">Jumlah :</label><br />
-                                <input type="text" name="jumlah" id="jumlah" class="form-control" placeholder="Ketik Jumlah" required />
+                                <label for="divisi" class="text-dark mb-2">Divisi :</label><br />
+                                <input type="text" name="divisi" id="divisi" class="form-control" placeholder="Ketik divisi" required />
                               </div>
                               <div class="form-group front1">
-                                <label for="satuan" class="text-dark mb-2">Satuan :</label>
-                                <div class="input-group mb-3">
-                                    <select class="form-control" required style="width: 334px;">
-                                        <i class="bi bi-chevron-down mr-5"></i>
-                                        <option disabled selected>Pilih Satuan</option>
-                                        <option>SMPL</option>
-                                        <option>KLBRS</option>
-                                        <option>MRKT</option>
-                                        <option>PPCU</option>
-                                        <option>CSO</option>
-                                        <option>QHSB</option>
-                                        <option>FNC</option>
-                                        <option>PPHU</option>
-                                        <option>HRGA</option>
-                                        <option>ENVR</option>
-                                        <option>MICRO</option>
-                                        <option>FOOD</option>
-                                      </select>
-                                </div>
+                                <label for="password" class="text-dark mb-2">Password :</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Ketik Password" style="width: 21rem;" required />
                               </div>
                               <br />
                               <div class="col-lg-3 form-group ml-3">
                                 <!-- <button type="submit" name="submit" class="btn btn-dark mr-4" style="width: 45.5rem; margin-right: 60%">Ajukan</button> -->
-                                <a class="btn btn-dark mr-4" href="#" data-toggle="modal" data-target="#editPengajuanModal" style="width: 45.5rem; margin-right: 60%">
-                                  Ubah Pengajuan
+                                <a class="btn btn-dark mr-4" href="#" data-toggle="modal" data-target="#pengajuanModal" style="width: 45.5rem; margin-right: 60%">
+                                  Ubah
                                 </a>
                                 <!-- <input type="submit" name="submit" class="btn btn-md text-light" value="Masuk" /> -->
                               </div>
                             </form>
-                            <a href="dashboard2.html" class="d-block text-center text-dark mt-3">Kembali</a>
+                            <a href="dataKrywn.html" class="d-block text-center text-dark mt-3">Kembali</a>
                           </div>
                         </div>
                       </div>
@@ -192,23 +145,42 @@
           <div class="modal-footer">
             <a class="btn btn-danger" href="login.html" style="width: 45.5rem; border-radius: 20rem">Logout</a>
           </div>
+          <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="pengajuanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ubah Data Karyawan?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-success mr-4" href="#" data-toggle="modal" data-target="#pengajuan2Modal" style="width: 45.5rem; margin-right: 60%">
+              Ubah
+            </a>
+          </div>
           <button class="btn" type="button" data-dismiss="modal" style="width: 29.5rem; margin-left: 1rem; margin-bottom: 1rem">Kembali</button>
         </div>
       </div>
     </div>
 
     <!-- pengajuan modal -->
-    <div class="modal fade" id="editPengajuanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="pengajuan2Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ajuan Berhasi Diubah</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Barang Berhasil Ditambahkan</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-footer">
-            <a class="btn btn-secondary" type="submit" href="dashboard2.html" style="width: 45.5rem; border-radius: 90px">selesai</a>
+            <a class="btn btn-secondary" type="submit" href="dataKrywn.html" style="width: 45.5rem; border-radius: 90px">selesai</a>
           </div>
         </div>
       </div>

@@ -10536,8 +10536,8 @@ body.sidebar-toggled footer.sticky-footer {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 42.5rem;
-  top: -1rem;
+  left: 1.5rem;
+  top: 0rem;
 }
 
 .icon-expand2 {
@@ -10565,7 +10565,7 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .bck {
-  margin-left: 10rem !important;
+  margin-left: 17rem !important;
   margin-top: 20rem;
 }
 
@@ -10730,13 +10730,13 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .bck3 {
-  margin-left: 8rem !important;
-  margin-top: 26rem;
+  margin-left: 18rem !important;
+  margin-top: 18rem;
   width: 14rem;
 }
 
 .bck2 {
-  margin-left: 8rem !important;
+  margin-left: 16rem !important;
   margin-top: 20rem;
   width: 14rem;
 }
